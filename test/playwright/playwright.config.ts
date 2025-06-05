@@ -24,7 +24,7 @@ const config: PlaywrightTestConfig = {
       }
     }
   ],
-  reporter: [['line'],["buildkite-test-collector/playwright/reporter"]]
+  reporter: [['line'],["buildkite-test-collector/playwright/reporter"]],
   webServer: {
     command: 'npm start',
     port: 3000,
